@@ -34,7 +34,7 @@ DEEPGRAM_API_KEY='your_deepgram_api_key_here'
 Navigate to the `src/` directory and run the script from the command line, specifying the audio file path and optional parameters for the transcription model and output format.
 
 ```bash
-python transcribe_and_caption.py path_to_your_audio_file -m model_name -f output_format
+python transcribe.py path_to_your_audio_file -m model_name -f output_format
 ```
 
 - `path_to_your_audio_file`: The path to the audio file you want to transcribe.
@@ -44,7 +44,7 @@ python transcribe_and_caption.py path_to_your_audio_file -m model_name -f output
 Example:
 
 ```bash
-python src/transcribe_and_caption.py ./audio/sample.mp3
+python src/transcribe.py ./audio/sample.mp3
 ```
 
 This command will transcribe the `sample.mp3` file using the `nova-2` model and save the captions in WebVTT format.
